@@ -1,0 +1,199 @@
+
+.navbar-brand{
+  border-right: 2px solid black;
+  padding-right:1%;
+}
+
+.navbar-light .navbar-nav .nav-link {color:black;
+}
+
+
+.formations{
+cursor:pointer;}
+.international{
+cursor:pointer;}
+.vie{
+cursor:pointer;}
+.entreprise{
+cursor:pointer;}
+.iut{
+cursor:pointer;}
+.profil{
+cursor:pointer;}
+
+.profil{margin-left:35%;}
+.bloub{margin-left:40%;}
+
+form{
+  margin-top: 10%;
+}
+.bordure{
+  border-right: 1px solid;
+}
+.btn{
+  background-color: #044883;
+  color: white;
+}
+.nom{
+  margin-bottom: 30px;
+}
+
+.bordercv{
+  border-bottom:black 0.75rem solid;
+  padding-top:1%;
+  padding-bottom:1%;
+  font-style:italic;
+  font-size:20px;
+  text-align:center;
+  border-radius:15%;
+}
+
+input,textarea{
+  font-style: italic;
+}
+#loic{
+  position: absolute;
+  height: 60px;
+  left: 80%;
+
+}
+#thib{
+  position: absolute;
+  height: 60px;
+  left: 80%;
+}
+#antoine{
+  position: absolute;
+  height: 60px;
+  left: 80%;
+}
+img{border-radius: 0%;}
+#myFooter {
+	background-color: #044883;
+	color:white;
+  margin-top: 3%;
+}
+
+.ecole{margin-right:10%;}
+
+#myFooter .footer-copyright {
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p {
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul {
+	list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+	font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+}
+
+#myFooter .youtube:hover{
+	color:red;
+}
+
+#myFooter .facebook:hover{
+	color:#3b5998;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+#myFooter .linkedin:hover{
+  color: #0e76a8;
+}
+
+.myCols ul li::before{content: "‣ ";}
+.myCols ul li::before{color: white;}
+
+
+@media screen and (max-width: 100%){
+	#myFooter {
+		text-align: center;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  margin:0;padding:0;
+  }
+
+.footer-copyright{
+  position:absolute;bottom:0;
+}
+}
+@media screen and (max-width: 763px) {
+  .text{margin-right:100px; margin-left:100px;}
+  .left{margin-left: 10px;}
+  .left h2{font-size:23px;}
+  .borderp{padding-left:0px;padding-right:0px;line-height:17px;}
+  .borderpno{padding-left:0px;padding-right:0px;line-height:17px;}
+  .borderyes{padding-left:0px;padding-right:0px;padding-bottom:6%;line-height:17px;}
+  .col-sm-6 img{padding-top:3%;width:100%;}
+  .marginlink{margin-left:0px;font-size:15%;}
+  .paddingab{padding:0;}
+  .pull-right{margin-right:20%;margin-left:20%;}
+  .text{margin: 0;background-color:inherit;}
+  .text h1{font-size:18px;background-color: rgba(255, 255, 255, 0.5);margin-left:24%;margin-right:24%;margin-bottom:0px;}
+  .subtitle{font-size:14px;background-color: rgba(255, 255, 255, 0.5);margin-left:26%;margin-right:26%;margin-bottom:0px;}
+  .titre1{padding-left:4%;padding-right:5%;}
+  .titre1 h1{font-size:19px;margin-top:7%;padding:4px;}
+  .row-md-12{margin-right:0px;}
+  .titre2{padding-left:7%;padding-right:7%;}
+  .titre2 h2{font-size: 17px;}
+  .antoinepic{left: 41%;}
+  .loicpic{left:32%;}
+  .thibautpic{left:47%;}
+  fieldset{padding-bottom:6%;padding-top:6%;}
+  .footer-copyright li{padding-left:8%;padding-right:8%;}
+  .navbar-brand{padding-right:6%;padding-bottom:1%;}
+  .paddingab{padding-left:5.3%;}
+  .profil{margin-left:0%;}
+}
